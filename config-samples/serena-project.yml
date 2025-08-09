@@ -1,10 +1,23 @@
+# Serena MCP Server プロジェクト設定ファイル (日本語版)
+# ファイル場所: ~/.serena/project.yml
+# 用途: LSP統合による意味的コード分析
+
+# プロジェクト名
 name: "TenormusicaProject"
+
+# 主要プログラミング言語
 language: python
+
+# エントリーポイント（通常は空）
 entry_points: []
+
+# .gitignore のファイルを自動的に無視
 ignore_all_files_in_gitignore: true
+
+# 無視するパス（パフォーマンス向上）
 ignored_paths:
-  - "__pycache__"
-  - "*.pyc"
-  - ".git"
-  - "node_modules"
-  - ".env"
+  - "__pycache__"    # Python キャッシュ
+  - "*.pyc"          # Python バイトコード
+  - ".git"           # Git管理フォルダ
+  - "node_modules"   # Node.js依存関係
+  - ".env"           # 環境変数ファイル

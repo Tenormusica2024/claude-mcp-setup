@@ -1,7 +1,18 @@
 {
+  "// Claude Code 権限設定ファイル (日本語版)": "",
+  "// ファイル場所: ~/.claude/settings.local.json": "",
+  
   "permissions": {
-    "allow": ["*"],
+    "// 許可する操作 (\"*\" = すべて許可)": "",
+    "allow": [
+      "*"
+    ],
+    "// 拒否する操作（通常は空）": "",
     "deny": []
   },
+  
+  "// 危険な権限スキップ機能": "",
+  "// true = 権限確認プロンプトを自動承認（完全自動化）": "",
+  "// false = 手動確認が必要": "",
   "dangerously-skip-permissions": true
 }
