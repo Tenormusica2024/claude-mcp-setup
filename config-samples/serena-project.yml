@@ -1,0 +1,10 @@
+name: "TenormusicaProject"
+language: python
+entry_points: []
+ignore_all_files_in_gitignore: true
+ignored_paths:
+  - "__pycache__"
+  - "*.pyc"
+  - ".git"
+  - "node_modules"
+  - ".env"
